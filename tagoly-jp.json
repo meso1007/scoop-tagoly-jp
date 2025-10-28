@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "軽量コマンドラインでファイルにタグ管理できるツール（日本語版）",
+    "homepage": "https://github.com/meso1007/tagoly-jp",
+    "license": "MIT",
+    "url": "https://github.com/meso1007/tagoly-jp/releases/download/v$version/tagoly-jp.exe",
+    "hash": "62eb6d1f2553d215ab0b32f93009681cb9895ececad64c960645218de920a9f7",
+    "bin": "tagoly-jp.exe",
+    "autoupdate": {
+        "url": "https://github.com/meso1007/tagoly-jp/releases/download/v$version/tagoly-jp.exe",
+        "hash": {
+            "url": "https://github.com/meso1007/tagoly-jp/releases/latest/download/tagoly-jp.exe.sha256"
+        }
+    }
+}
